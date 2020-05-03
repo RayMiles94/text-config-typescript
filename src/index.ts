@@ -1,1 +1,9 @@
-console.log('hello world');
+export class TextConfig {
+
+    Filename: string;
+
+    constructor(Filename: string) {
+        this.Filename = Filename;
+    }
+
+}
