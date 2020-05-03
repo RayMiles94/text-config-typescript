@@ -1,0 +1,16 @@
+{
+  "name": "typescript-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create-ts-config": "npx tsc --init --rootDir src --outDir build --esModuleInterop --resolveJsonModule --lib es6  --module commonjs --allowJs true --noImplicitAny true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^13.13.4",
+    "typescript": "^3.8.3"
+  }
+}
