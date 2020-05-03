@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx tsc",
+    "start": "npm run build && node build/index.js",
     "start:dev": "nodemon",
     "build": "rimraf ./build && tsc",
     "create-ts-config": "npx tsc --init --rootDir src --outDir build --esModuleInterop --resolveJsonModule --lib es6  --module commonjs --allowJs true --noImplicitAny true"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["text", "typescript", "files"],
+  "author": "RayMiles94",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^13.13.4",
