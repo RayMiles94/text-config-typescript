@@ -32,8 +32,9 @@ var TextConfig = /** @class */ (function () {
                 }
             });
         }
-        console.log(obj.name);
+        // todo : try to find solution
         process.env.DATACONFIG = obj;
+        console.log(process.env.DATACONFIG);
     };
     return TextConfig;
 }());

@@ -6,7 +6,6 @@ interface Loseobject  {
     [key : string]: any | undefined  ;
 }
 
-
 export class TextConfig {
 
     public Filename: string;
@@ -43,8 +42,9 @@ export class TextConfig {
         }
         
 
-        // todo : try to find solution
-        process.env.DATACONFIG =<any> obj;
+        // todo : try to find solution for conversion string type to object type
+        // process.env.DATACONFIG = <any> obj;
+        process.env.DATACONFIG = "all vars in process strings";
         console.log(process.env.DATACONFIG);
     }
 }
