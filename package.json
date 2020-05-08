@@ -1,22 +1,30 @@
 {
-  "name": "typescript-text",
+  "name": "typescript-text-config",
   "version": "1.0.0",
   "description": "",
   "main": "build/index.js",
-  "typings":"./src/textconfig.d.ts",
-  "types":"build/index.d.ts",
+  "typings": "./src/textconfig.d.ts",
+  "types": "build/index.d.ts",
   "scripts": {
     "start": "npm run build && node build/index.js",
     "start:dev": "nodemon",
-    "test":"ts-node ./test/test.ts",
+    "test": "ts-node ./test/test.ts",
     "build": "rimraf ./build && tsc --declaration",
+    "eslint": "eslint src/**",
     "create-ts-config": "npx tsc --init --rootDir src --outDir build --esModuleInterop --resolveJsonModule --lib es6  --module commonjs --allowJs true --noImplicitAny true"
   },
-  "keywords": ["text", "typescript", "files"],
+  "keywords": [
+    "text",
+    "typescript",
+    "files"
+  ],
   "author": "RayMiles94",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^13.13.4",
+    "@typescript-eslint/eslint-plugin": "^2.31.0",
+    "@typescript-eslint/parser": "^2.31.0",
+    "eslint": "^7.0.0",
     "nodemon": "^2.0.3",
     "rimraf": "^3.0.2",
     "ts-node": "^8.10.1",
