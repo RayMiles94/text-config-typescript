@@ -41,8 +41,11 @@ export class TextConfig {
                 }
             });
         }
-        console.log(obj.name)
-        process.env.DATACONFIG = obj;
+        
+
+        // todo : try to find solution
+        process.env.DATACONFIG =<any> obj;
+        console.log(process.env.DATACONFIG);
     }
 }
 
