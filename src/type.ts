@@ -11,5 +11,3 @@ export class TxtFileType {
         return false;
     }
 }
-
-
