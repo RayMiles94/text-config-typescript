@@ -14,7 +14,7 @@ exemple create test.text
 
 # second import text-config-typescript package
 ```javascript
-const textconfig = require('../typescript-learn');
+const textconfig = require('typescript-text-config');
 var file = new textconfig.TextConfig('test.txt');
 console.log(file.getItem('a'));
 // output : 5
