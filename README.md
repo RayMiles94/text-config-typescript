@@ -5,7 +5,7 @@
   </a>
 </p>
 # to install it
-```text
+```bash
 npm i typescript-text-config
 ```
 
