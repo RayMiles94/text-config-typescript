@@ -1,5 +1,11 @@
+<h1 align="center">Welcome to text-config-typescript 👋</h1>
+<p align="center">
+<a href="https://www.npmjs.com/package/typescript-text-config">
+    <img alt="downloads" src="" target="_blank" />
+  </a>
+</p>
 # to install it
-```
+```bash
 npm i typescript-text-config
 ```
 
