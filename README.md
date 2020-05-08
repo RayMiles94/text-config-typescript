@@ -1,3 +1,8 @@
+# to install it
+```
+npm i typescript-text-config
+```
+
 # text-config-typescript
 its typescript mini libary for parsing data config from text file 
 
