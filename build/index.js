@@ -7,7 +7,6 @@ var fs_1 = __importDefault(require("fs"));
 var type_1 = require("./type");
 var TextConfig = /** @class */ (function () {
     function TextConfig(Filename) {
-        this.params = [];
         this.Filename = Filename;
         this.type = new type_1.TxtFileType(Filename);
         if (this.type.checkfile() == false) {
@@ -16,7 +15,25 @@ var TextConfig = /** @class */ (function () {
         this.parseFile();
     }
     TextConfig.prototype.parseFile = function () {
-        var file = fs_1.default.readFileSync(this.Filename);
+        var file;
+        var obj = {};
+        try {
+            file = fs_1.default.readFileSync(this.Filename);
+        }
+        catch (err) {
+            console.log(err);
+        }
+        var lines = file === null || file === void 0 ? void 0 : file.toString().split('\n');
+        if (lines != undefined) {
+            lines.forEach(function (element) {
+                var data = element.split('=');
+                if (data.length == 2) {
+                    obj[data[0].split(' ')[0]] = data[1];
+                }
+            });
+        }
+        console.log(obj.name);
+        process.env.DATACONFIG = obj;
     };
     return TextConfig;
 }());

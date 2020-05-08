@@ -1,0 +1,5 @@
+name = app
+versionlll = 1.0
+author = author
+data = 1june
+git = hhhh

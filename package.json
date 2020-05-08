@@ -1,12 +1,14 @@
 {
-  "name": "typescript-learn",
+  "name": "typescript-text",
   "version": "1.0.0",
   "description": "",
   "main": "build/index.js",
+  "typings":"./src/textconfig.d.ts",
   "types":"build/index.d.ts",
   "scripts": {
     "start": "npm run build && node build/index.js",
     "start:dev": "nodemon",
+    "test":"ts-node ./test/test.ts",
     "build": "rimraf ./build && tsc --declaration",
     "create-ts-config": "npx tsc --init --rootDir src --outDir build --esModuleInterop --resolveJsonModule --lib es6  --module commonjs --allowJs true --noImplicitAny true"
   },
