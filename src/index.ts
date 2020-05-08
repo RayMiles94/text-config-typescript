@@ -8,8 +8,10 @@ interface Loseobject  {
 
 export class TextConfig {
 
-    public Filename: string;
+    public  Filename: string;
     private type: TxtFileType;
+    private RAWDATA: string | undefined = '';
+    private RAWOBJECT: Loseobject | undefined | any;
     
 
     constructor(Filename: string) {
@@ -35,17 +37,37 @@ export class TextConfig {
         if (lines != undefined) {
             lines.forEach(element => {
                 const data = element.split('=');
-                if(data.length == 2) {
+                if((data.length == 2) && (data!=undefined)) {
                     obj[data[0].split(' ')[0]] = data[1];
+                    if (this.RAWDATA==''){
+                        this.RAWDATA = data[0].split(' ')[0]+":"+data[1]+"/";
+                    }
+                    else {
+                        this.RAWDATA += data[0].split(' ')[0]+":"+data[1]+"/";
+                    }
                 }
             });
         }
         
 
-        // todo : try to find solution for conversion string type to object type
-        // process.env.DATACONFIG = <any> obj;
-        process.env.DATACONFIG = "all vars in process strings";
-        console.log(process.env.DATACONFIG);
+        this.RAWOBJECT = obj;
+        process.env.DATACONFIG = this.RAWDATA;
+        
     }
+
+
+    public getItem(str: string): string | undefined {
+        try {
+            return this.RAWOBJECT[str];
+        } catch (error) {
+            return "Error";
+        }
+    }
+
+    public getRAWDATA() {
+        return this.RAWDATA;
+    }
+
+    
 }
 

@@ -1,5 +1,5 @@
-name = app
-versionlll = 1.0
-author = author
+name = app01
+version = 1.0
+author = author01
 data = 1june
-git = hhhh
+git = git.hello.com
