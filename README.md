@@ -2,13 +2,13 @@
 <p align="center">
 <p align="center">
   <img src="https://img.shields.io/npm/v/typescript-text-config.svg?orange=blue" />
-  <a href="https://www.npmjs.com/package/typescript-text-config">
+  <a href="https://www.npmjs.com/package/typescript-text-config" target="_blank">
     <img alt="downloads" src="https://img.shields.io/npm/dm/readme-md-generator.svg?color=blue" target="_blank" />
   </a>
-  <a href="https://www.jsdelivr.com/package/npm/typescript-text-config">
+  <a href="https://www.jsdelivr.com/package/npm/typescript-text-config" target="_blank">
    <img class="badge" src="https://data.jsdelivr.com/v1/package/npm/typescript-text-config/badge">
   </a>
-	<a href="https://bundlephobia.com/result?p=typescript-text-config@0.1.0">
+	<a href="https://bundlephobia.com/result?p=typescript-text-config@0.1.0" target="_blank">
 		<img alt="badge" src="https://badgen.net/github/release/RayMiles94/text-config-typescript">
 	</a>
 </p>
