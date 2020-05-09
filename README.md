@@ -6,7 +6,10 @@
     <img alt="downloads" src="https://img.shields.io/npm/dm/readme-md-generator.svg?color=blue" target="_blank" />
   </a>
   <a href="https://www.jsdelivr.com/package/npm/typescript-text-config">
-		<img class="badge" src="https://data.jsdelivr.com/v1/package/npm/typescript-text-config/badge">
+   <img class="badge" src="https://data.jsdelivr.com/v1/package/npm/typescript-text-config/badge">
+  </a>
+	<a href="https://github.com/RayMiles94/text-config-typescript">
+		<img alt="badge" src="https://badgen.net/github/release/RayMiles94/text-config-typescript">
 	</a>
 </p>
 <div style="font-family: 'Times New Roman', Times, serif;">to install it! <div>
