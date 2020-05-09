@@ -9,7 +9,7 @@
   
   
 </p>
-## to install it
+<div style="font-family: 'Times New Roman', Times, serif;">to install it! <div>
 
 
 ```console
