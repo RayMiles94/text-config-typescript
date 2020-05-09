@@ -1,7 +1,9 @@
 <h1 align="center">Welcome to text-config-typescript 👋</h1>
 <p align="center">
 <p align="center">
+	<a href="https://www.npmjs.com/package/typescript-text-config" target="_blank">
   <img src="https://img.shields.io/npm/v/typescript-text-config.svg?orange=blue" />
+		</a>
   <a href="https://www.npmjs.com/package/typescript-text-config" target="_blank">
     <img alt="downloads" src="https://img.shields.io/npm/dm/readme-md-generator.svg?color=blue" target="_blank" />
   </a>
