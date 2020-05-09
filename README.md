@@ -10,6 +10,8 @@
   
 </p>
 # to install it
+
+
 ```console
 user@bar:~$ npm i typescript-text-config --save
 ```
