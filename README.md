@@ -35,8 +35,8 @@ console.log(file.getItem('a'));
 
 # typescript code
 ```javascript
-const textconfig = require('typescript-text-config');
-var file = new textconfig.TextConfig('test.txt');
+import { TextConfig } from 'typescript-text-config';
+var file = new TextConfig('test.txt');
 console.log(file.getItem('a'));
 // output : 5
 ```
