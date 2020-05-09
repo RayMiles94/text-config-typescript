@@ -5,9 +5,9 @@
   <a href="https://www.npmjs.com/package/typescript-text-config">
     <img alt="downloads" src="https://img.shields.io/npm/dm/readme-md-generator.svg?color=blue" target="_blank" />
   </a>
-  
-  
-  
+  <a href="https://www.jsdelivr.com/package/npm/typescript-text-config">
+		<img class="badge" src="https://data.jsdelivr.com/v1/package/npm/typescript-text-config/badge">
+	</a>
 </p>
 <div style="font-family: 'Times New Roman', Times, serif;">to install it! <div>
 
