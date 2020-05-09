@@ -31,6 +31,7 @@ exemple create test.text
 
 
 # second import text-config-typescript package
+# javascript code
 ```javascript
 const textconfig = require('typescript-text-config');
 let file = new textconfig.TextConfig('test.txt');
