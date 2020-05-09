@@ -33,12 +33,10 @@ console.log(file.getItem('a'));
 // output : 5
 ```
 
-
-<div>typescript</div>
+# typescript code
 ```javascript
-import { TextConfig } from 'typescript-text-config';
-
-const file = new TextConfig('test.txt');
+const textconfig = require('typescript-text-config');
+var file = new textconfig.TextConfig('test.txt');
 console.log(file.getItem('a'));
 // output : 5
 ```
