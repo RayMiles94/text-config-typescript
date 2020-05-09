@@ -13,6 +13,9 @@
 	<a href="https://bundlephobia.com/result?p=typescript-text-config@0.1.0" target="_blank">
 		<img alt="badge" src="https://badgen.net/github/release/RayMiles94/text-config-typescript">
 	</a>
+	<a href="https://unpkg.com/browse/typescript-text-config@0.1.1/" target="_blank">
+		<img alt="badge" src="https://badgen.net/github/release/RayMiles94/text-config-typescript">
+	</a>
 </p>
 <div style="font-family: 'Times New Roman', Times, serif;">to install it! <div>
 
