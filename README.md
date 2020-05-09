@@ -8,7 +8,7 @@
   <a href="https://www.jsdelivr.com/package/npm/typescript-text-config">
    <img class="badge" src="https://data.jsdelivr.com/v1/package/npm/typescript-text-config/badge">
   </a>
-	<a href="https://github.com/RayMiles94/text-config-typescript">
+	<a href="https://bundlephobia.com/result?p=typescript-text-config@0.1.0">
 		<img alt="badge" src="https://badgen.net/github/release/RayMiles94/text-config-typescript">
 	</a>
 </p>
